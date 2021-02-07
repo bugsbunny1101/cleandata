@@ -1,4 +1,4 @@
-h1. tidy.txt
+# tidy.txt
 
 * subject - subject number
 * activity - activity code
@@ -6,7 +6,7 @@ h1. tidy.txt
 * features - feature contains mean and std but not meanFreq
 * measurments - measured value
 
-h1. tidy_summary.txt
+# tidy_summary.txt
 
 * subject - subject number
 * activity - activity code
@@ -14,13 +14,13 @@ h1. tidy_summary.txt
 * features - feature contains mean and std but not meanFreq
 * mean_measurments - mean of measured value, group by subject, activity and feature
 
-h1. source data
+# source data
 
 see https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Assume all files extracted into folder ucihardataset
 
-h1. transformation
+# transformation
 
 ```
     Merges the training and the test sets to create one data set.
